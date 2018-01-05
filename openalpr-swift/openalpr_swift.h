@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "OATypes.h"
+#import "OAScanner.h"
+
 //! Project version number for openalpr_swift.
 FOUNDATION_EXPORT double openalpr_swiftVersionNumber;
 
