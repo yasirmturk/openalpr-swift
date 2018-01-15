@@ -19,9 +19,7 @@
 		C14E00961FFF5C1C001D0DA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14E00951FFF5C1C001D0DA9 /* CoreGraphics.framework */; };
 		C14E015F1FFF7F71001D0DA9 /* openalpr.conf in Resources */ = {isa = PBXBuildFile; fileRef = C14E00FD1FFF7F71001D0DA9 /* openalpr.conf */; };
 		C14E01881FFF8EAD001D0DA9 /* runtime_data in Resources */ = {isa = PBXBuildFile; fileRef = C14E01871FFF8EAD001D0DA9 /* runtime_data */; };
-		C14E019A1FFFB851001D0DA9 /* leptonica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14E01971FFFB851001D0DA9 /* leptonica.framework */; };
 		C14E019B1FFFB851001D0DA9 /* openalpr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14E01981FFFB851001D0DA9 /* openalpr.framework */; };
-		C14E019C1FFFB851001D0DA9 /* tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C14E01991FFFB851001D0DA9 /* tesseract.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +49,8 @@
 		C14E00951FFF5C1C001D0DA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C14E00FD1FFF7F71001D0DA9 /* openalpr.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = openalpr.conf; sourceTree = "<group>"; };
 		C14E01871FFF8EAD001D0DA9 /* runtime_data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = runtime_data; sourceTree = "<group>"; };
-		C14E01971FFFB851001D0DA9 /* leptonica.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = leptonica.framework; path = lib/leptonica.framework; sourceTree = "<group>"; };
 		C14E01981FFFB851001D0DA9 /* openalpr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = openalpr.framework; path = lib/openalpr.framework; sourceTree = "<group>"; };
-		C14E01991FFFB851001D0DA9 /* tesseract.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tesseract.framework; path = lib/tesseract.framework; sourceTree = "<group>"; };
+		C1C685CA200CC0A3001003C9 /* OpenALPRSwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OpenALPRSwift.podspec; sourceTree = SOURCE_ROOT; };
 		ED7CBC548D4364C0EBA7EDD1 /* Pods-openalpr-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openalpr-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openalpr-swift/Pods-openalpr-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,9 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14E019A1FFFB851001D0DA9 /* leptonica.framework in Frameworks */,
 				C14E019B1FFFB851001D0DA9 /* openalpr.framework in Frameworks */,
-				C14E019C1FFFB851001D0DA9 /* tesseract.framework in Frameworks */,
 				C14E00961FFF5C1C001D0DA9 /* CoreGraphics.framework in Frameworks */,
 				C14E00941FFF5C09001D0DA9 /* UIKit.framework in Frameworks */,
 				98314E07D1D4900C146CB48D /* Pods_openalpr_swift.framework in Frameworks */,
@@ -114,6 +109,7 @@
 		C13A631E1FFF55B40090EAC1 /* openalpr-swift */ = {
 			isa = PBXGroup;
 			children = (
+				C1C685CA200CC0A3001003C9 /* OpenALPRSwift.podspec */,
 				C13A633A1FFF5AFB0090EAC1 /* OATypes.h */,
 				C13A633B1FFF5AFB0090EAC1 /* OATypes.mm */,
 				C13A63391FFF5AFB0090EAC1 /* OAScanner.h */,
@@ -138,9 +134,7 @@
 		C14E00921FFF5C09001D0DA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C14E01971FFFB851001D0DA9 /* leptonica.framework */,
 				C14E01981FFFB851001D0DA9 /* openalpr.framework */,
-				C14E01991FFFB851001D0DA9 /* tesseract.framework */,
 				C14E00951FFF5C1C001D0DA9 /* CoreGraphics.framework */,
 				C14E00931FFF5C09001D0DA9 /* UIKit.framework */,
 				A52507D2B18D6F12E3C6ACE4 /* Pods_openalpr_swift.framework */,

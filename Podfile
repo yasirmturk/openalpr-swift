@@ -5,3 +5,4 @@ target 'openalpr-swift' do
 end
 
 pod 'OpenCV', '~> 3.1.0.1'
+pod 'TesseractOCRiOS', '~> 3.03'
