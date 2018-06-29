@@ -1,8 +1,9 @@
 platform :ios, '9.0'
 
-target 'openalpr-swift' do
-    use_frameworks!
-end
+use_frameworks!
 
-pod 'OpenCV', '~> 3.1.0.1'
-pod 'TesseractOCRiOS', '~> 3.03'
+target 'openalpr-swift' do
+    # Open ALPR iOS Dependencies
+    pod 'OpenCV', '~> 3.1.0.1'
+    pod 'TesseractOCRiOS', '~> 3.03'
+end
