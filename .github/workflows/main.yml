@@ -1,0 +1,16 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: Start xcodebuild test
+      run: xcodebuild -workspace openalpr-swift.xcworkspace -scheme openalpr-swift -destination "platform=iOS Simulator,name=iPhone 8"
