@@ -31,8 +31,7 @@ platform :ios, '9.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    #pod 'OpenALPRSwift', '~> 1.0.0'
-    pod 'OpenALPRSwift', :git => 'https://github.com/yasirmturk/openalpr-swift.git', :tag => 'v1.0.0'
+    pod 'OpenALPRSwift', '~> 2.0.0'
 end
 ```
 
