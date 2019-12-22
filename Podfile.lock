@@ -1,20 +1,21 @@
 PODS:
   - OpenCV (3.1.0.1)
-  - TesseractOCRiOS (3.4.0)
+  - TesseractOCRiOS (5.0.1)
 
 DEPENDENCIES:
   - OpenCV (~> 3.1.0.1)
-  - TesseractOCRiOS (~> 3.03)
+  - TesseractOCRiOS (~> 5.0.1)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - OpenCV
+  trunk:
     - TesseractOCRiOS
 
 SPEC CHECKSUMS:
   OpenCV: 41c4250e2b06a394d6fbb634b5fa622cdd846018
-  TesseractOCRiOS: cd79d4ce9d4c0f1e2776db8820cf8239e5569592
+  TesseractOCRiOS: 2c189465f86abb030d0c5141c90da9705b647854
 
-PODFILE CHECKSUM: 0a271518ffe194fbf1497be61d8889882470ffea
+PODFILE CHECKSUM: b5cdb81fda2d1054bf95125bc6a651118dfb201d
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
