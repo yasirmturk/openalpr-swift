@@ -12,5 +12,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@master
+    - name: Install Dependences
+      run: |
+        pod repo update
+        pod install
     - name: Start xcodebuild test
       run: xcodebuild -workspace openalpr-swift.xcworkspace -scheme openalpr-swift -destination "platform=iOS Simulator,name=iPhone 8"
